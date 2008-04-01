@@ -13,9 +13,13 @@ Removes the WordPress update nag that appears at the top of all admin pages when
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
-The status of your version of WordPress (be it current or out-of-date) is still reflected in the footer of your admin pages.
+Tired of WordPress nagging you about a new release?  Maybe you already know about it and want to hold off on an update and would rather not see the update nag on every admin page you visit.  Activate this plugin and be bothered no more!
 
-One way to make use of the plugin is deactivate it once you upgrade WordPress.  Once you've been alerted to a new release of WordPress, activate the plugin to prevent the constant reminder.  Deactivate once you do update.
+Of course, the status of your version of WordPress (be it current or out-of-date) is still reflected in the footer of your admin pages.
+
+And certainly of course I don't advocate completely ignoring the fact that updates often contain fixes for critical bugs or exploits.  However, there are various other means of learning about updates; and once known, not everyone is able or willing to update immediately.
+
+One way to make use of the plugin is deactivate it once you upgrade WordPress.  Once you've been alerted to a new release of WordPress, activate the plugin to prevent the constant reminder.  Deactivate once you do update.  Otherwise, leave it activated.
 
 == Installation ==
 
