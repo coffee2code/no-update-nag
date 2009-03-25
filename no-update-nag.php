@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: No Update Nag
-Version: 1.0
+Version: 1.0.1
 Plugin URI: http://coffee2code.com/wp-plugins/no-update-nag
 Author: Scott Reilly
 Author URI: http://coffee2code.com
@@ -29,7 +29,7 @@ dashboard, blog, news sites, WP involvement, etc).
 2. Leave the plugin deactivated.  Once you've learned about an update to WordPress, activate the plugin to
 remove the nag until such time as you do the update, then deactivate the plugin once again.
 
-Compatible with WordPress 2.3+, and 2.5+.
+Compatible with WordPress 2.3+, 2.5+, 2.6+, 2.7+.
 
 =>> Read the accompanying readme.txt file for more information.  Also, visit the plugin's homepage
 =>> for more information and the latest updates
@@ -43,7 +43,7 @@ Installation:
 */
 
 /*
-Copyright (c) 2008 by Scott Reilly (aka coffee2code)
+Copyright (c) 2008-2009 by Scott Reilly (aka coffee2code)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation 
 files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, 

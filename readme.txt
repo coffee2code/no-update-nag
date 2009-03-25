@@ -3,9 +3,9 @@ Contributors: coffee2code
 Donate link: http://coffee2code.com
 Tags: admin, updates, nag
 Requires at least: 2.3
-Tested up to: 2.5
+Tested up to: 2.7.1
 Stable tag: trunk
-Version: 1.0
+Version: 1.0.1
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -30,7 +30,7 @@ One way to make use of the plugin is deactivate it once you upgrade WordPress.  
 
 = What is this update nag you mention? =
 
-In versions 2.3 and 2.5 of WordPress, your WordPress will alert you to the release of a newer version of WordPress via a yellow-background update notice at the top of every admin page.  WordPress 2.3 reports "A new version of WordPress is available!  Please update now." or "A new version of WordPress is available!  Please notify the site administrator."  WordPress 2.5 reports "WordPress X.X is available!  Please update now!" or "WordPress X.X is available!  Please notify the site administrator.".
+In versions 2.3 and later of WordPress, your WordPress will alert you to the release of a newer version of WordPress via a yellow-background update notice at the top of every admin page.  WordPress 2.3 reports "A new version of WordPress is available!  Please update now." or "A new version of WordPress is available!  Please notify the site administrator."  WordPress 2.5 and later reports "WordPress X.X is available!  Please update now!" or "WordPress X.X is available!  Please notify the site administrator.".
 
 = Why would I want to remove the update nag about new releases of WordPress? =
 
