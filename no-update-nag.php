@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: No Update Nag
-Version: 1.0.1
+Version: 1.1
 Plugin URI: http://coffee2code.com/wp-plugins/no-update-nag
 Author: Scott Reilly
 Author URI: http://coffee2code.com
@@ -29,7 +29,7 @@ dashboard, blog, news sites, WP involvement, etc).
 2. Leave the plugin deactivated.  Once you've learned about an update to WordPress, activate the plugin to
 remove the nag until such time as you do the update, then deactivate the plugin once again.
 
-Compatible with WordPress 2.3+, 2.5+, 2.6+, 2.7+.
+Compatible with WordPress 2.5+, 2.6+, 2.7+, 2.8+.
 
 =>> Read the accompanying readme.txt file for more information.  Also, visit the plugin's homepage
 =>> for more information and the latest updates
@@ -59,8 +59,5 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 */
 
-function no_update_nag() {
-	remove_action( 'admin_notices', 'update_nag', 3 );
-}
-add_action('admin_head', 'no_update_nag'); // When 2.3 support is dropped, use 'admin_init' action instead
+add_action( 'admin_init', create_function('', 'remove_action( \'admin_notices\', \'update_nag\', 3 );') );
 ?>
