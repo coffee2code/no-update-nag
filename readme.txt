@@ -3,9 +3,9 @@ Contributors: coffee2code
 Donate link: http://coffee2code.com/donate
 Tags: admin, updates, nag, coffee2code
 Requires at least: 2.5
-Tested up to: 2.8
-Stable tag: 1.1
-Version: 1.1
+Tested up to: 2.9.1
+Stable tag: 1.1.1
+Version: 1.1.1
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -23,7 +23,7 @@ One way to make use of the plugin is deactivate it once you upgrade WordPress.  
 
 == Installation ==
 
-1. Unzip `no-update-nag.zip` inside the `/wp-content/plugins/` directory, or copy `no-update-nag.php` into `/wp-content/plugins/`
+1. Unzip `no-update-nag.zip` inside the `/wp-content/plugins/` directory (or install via the built-in WordPress plugin installer)
 1. Activate the plugin through the 'Plugins' admin menu in WordPress
 
 == Frequently Asked Questions ==
@@ -39,3 +39,24 @@ Maybe you know about the newer WordPress release (either from the nag, news, etc
 = How will I know WordPress has been updated if the nag doesn't appear? =
 
 Within the context of your WordPress admin, the footer of your admin pages will reflect that status of your version of WordPress (be it current or out-of-date).  And if you are tracking WordPress progress at all (i.e. blogs, forums, your WordPress dashboard) then you likely don't need to be made aware of new releases anyhow since you'll likely already know about them. 
+
+== Changelog ==
+
+= 1.1.1 =
+* Update readme.txt, including adding Changelog section
+* Note compatibility through WP 2.9+
+* Update copyright date
+
+= 1.1 =
+* Remove the sole function no_update_nag() and embed its functionality directly in add_action() call via create_function()
+* Hook 'admin_init' instead of 'admin_head', which causes a drop in support for WP2.3
+* Note compatibility with WP 2.8+
+* Tweak readme.txt
+
+= 1.0.1 =
+* Note compatibility with WP 2.6+ and 2.7+
+* Update copyright date
+* Minor tweaks to readme.txt;
+
+= 1.0 =
+* Initial release
