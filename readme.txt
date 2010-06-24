@@ -1,9 +1,9 @@
 === No Update Nag ===
 Contributors: coffee2code
 Donate link: http://coffee2code.com/donate
-Tags: admin, updates, nag, coffee2code
+Tags: admin, updates, nag, notices, coffee2code
 Requires at least: 2.5
-Tested up to: 2.9.1
+Tested up to: 3.0
 Stable tag: 1.1.1
 Version: 1.1.1
 
@@ -34,7 +34,7 @@ In versions 2.5 and later of WordPress, your WordPress will alert you to the rel
 
 = Why would I want to remove the update nag about new releases of WordPress? =
 
-Maybe you know about the newer WordPress release (either from the nag, news, etc) and don't want to be constantly reminded by your current WordPress install (not everyone can or wants to upgrade to the newest version immediately).  Also, you'd like to recover that much real estate on the page for something of more interested to you.
+Maybe you know about the newer WordPress release (either from the nag, news, etc) and don't want to be constantly reminded by your current WordPress install (not everyone can or wants to upgrade to the newest version immediately).  Also, you'd like to recover that much real estate on the page for something of more interest to you.
 
 = How will I know WordPress has been updated if the nag doesn't appear? =
 
@@ -44,7 +44,7 @@ Within the context of your WordPress admin, the footer of your admin pages will 
 
 = 1.1.1 =
 * Update readme.txt, including adding Changelog section
-* Note compatibility through WP 2.9+
+* Note compatibility through WP 2.9+, 3.0+
 * Update copyright date
 
 = 1.1 =
