@@ -3,9 +3,9 @@ Contributors: coffee2code
 Donate link: http://coffee2code.com/donate
 Tags: admin, updates, nag, notices, wordpress, upgrade, coffee2code
 Requires at least: 2.5
-Tested up to: 3.1
-Stable tag: 1.1.3
-Version: 1.1.3
+Tested up to: 3.2
+Stable tag: 1.2
+Version: 1.2
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -22,7 +22,7 @@ And certainly of course I don't advocate completely ignoring the fact that updat
 
 One way to make use of the plugin is deactivate it once you upgrade WordPress.  Once you've been alerted to a new release of WordPress, activate the plugin to prevent the constant reminder.  Deactivate once you do update.  Otherwise, leave it activated.
 
-Links: [Plugin Homepage]:(http://coffee2code.com/wp-plugins/no-update-nag) | [Author Homepage]:(http://coffee2code.com)
+Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-update-nag) | [Author Homepage](http://coffee2code.com)
 
 
 == Installation ==
@@ -47,6 +47,13 @@ Within the context of your WordPress admin, the footer of your admin pages will 
 
 
 == Changelog ==
+
+= 1.2 =
+* Add function c2c_no_update_nag()
+* Hook c2c_no_update_nag() into 'admin_init' action rather than use create_function() (as was done prior to v1.1)
+* Note compatibility through WP 3.2+
+* Minor code formatting changes (spacing)
+* Fix plugin homepage and author links in description in readme.txt
 
 = 1.1.3 =
 * Remove header documentation from plugin file (all that info and more are in the readme.txt)
@@ -79,6 +86,9 @@ Within the context of your WordPress admin, the footer of your admin pages will 
 
 
 == Upgrade Notice ==
+
+= 1.2 =
+Minor release: noted compatibility through WP 3.2+ and changed how action is hooked
 
 = 1.1.3 =
 Trivial update: documentation tweaks
