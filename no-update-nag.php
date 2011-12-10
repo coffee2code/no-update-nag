@@ -2,17 +2,17 @@
 /**
  * @package No_Update_Nag
  * @author Scott Reilly
- * @version 1.2
+ * @version 1.2.1
  */
 /*
 Plugin Name: No Update Nag
-Version: 1.2
+Version: 1.2.1
 Plugin URI: http://coffee2code.com/wp-plugins/no-update-nag/
 Author: Scott Reilly
 Author URI: http://coffee2code.com
 Description: Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
-Compatible with WordPress 2.5+, 2.6+, 2.7+, 2.8+, 2.9+, 3.0+, 3.1+, 3.2+.
+Compatible with WordPress 2.5+, 2.6+, 2.7+, 2.8+, 2.9+, 3.0+, 3.1+, 3.2+, 3.3+.
 
 =>> Read the accompanying readme.txt file for instructions and documentation.
 =>> Also, visit the plugin's homepage for additional information and updates.
@@ -20,11 +20,12 @@ Compatible with WordPress 2.5+, 2.6+, 2.7+, 2.8+, 2.9+, 3.0+, 3.1+, 3.2+.
 
 TODO:
 	* Add filter to define capabilities for who can see update nag (or perhaps who can't see it)
+	* Ability to suppress notice in footer
 
 */
 
 /*
-Copyright (c) 2008-2011 by Scott Reilly (aka coffee2code)
+Copyright (c) 2008-2012 by Scott Reilly (aka coffee2code)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation
 files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy,

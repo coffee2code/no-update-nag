@@ -1,11 +1,11 @@
 === No Update Nag ===
 Contributors: coffee2code
 Donate link: http://coffee2code.com/donate
-Tags: admin, updates, nag, notices, wordpress, upgrade, coffee2code
+Tags: admin, updates, nag, notices, upgrade, coffee2code
 Requires at least: 2.5
-Tested up to: 3.2
-Stable tag: 1.2
-Version: 1.2
+Tested up to: 3.3
+Stable tag: 1.2.1
+Version: 1.2.1
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -18,11 +18,9 @@ Tired of WordPress nagging you about a new release?  Maybe you already know abou
 
 Of course, the status of your version of WordPress (be it current or out-of-date) is still reflected in the footer of your admin pages.
 
-And certainly of course I don't advocate completely ignoring the fact that updates often contain fixes for critical bugs or exploits.  However, there are various other means of learning about updates; and once known, not everyone is able or willing to update immediately.
+And certainly, of course, I don't advocate completely ignoring the fact that updates often contain fixes for critical bugs or exploits.  However, there are various other means of learning about updates; and once known, not everyone is able or willing to update immediately.
 
-One way to make use of the plugin is deactivate it once you upgrade WordPress.  Once you've been alerted to a new release of WordPress, activate the plugin to prevent the constant reminder.  Deactivate once you do update.  Otherwise, leave it activated.
-
-Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-update-nag) | [Author Homepage](http://coffee2code.com)
+Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-update-nag) | [Plugin Directory Page](http://wordpress.org/extend/plugins/no-update-nag/) | [Author Homepage](http://coffee2code.com)
 
 
 == Installation ==
@@ -47,6 +45,11 @@ Within the context of your WordPress admin, the footer of your admin pages will 
 
 
 == Changelog ==
+
+= 1.2.1 =
+* Note compatibility through WP 3.3+
+* Add link to plugin directory page to readme.txt
+* Update copyright date (2012)
 
 = 1.2 =
 * Add function c2c_no_update_nag()
@@ -86,6 +89,9 @@ Within the context of your WordPress admin, the footer of your admin pages will 
 
 
 == Upgrade Notice ==
+
+= 1.2.1 =
+Trivial update: noted compatibility through WP 3.3+
 
 = 1.2 =
 Minor release: noted compatibility through WP 3.2+ and changed how action is hooked
