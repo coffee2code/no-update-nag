@@ -2,10 +2,12 @@
 Contributors: coffee2code
 Donate link: http://coffee2code.com/donate
 Tags: admin, updates, nag, notices, upgrade, coffee2code
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
-Tested up to: 3.3
-Stable tag: 1.2.1
-Version: 1.2.1
+Tested up to: 3.5
+Stable tag: 1.3
+Version: 1.3
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -45,6 +47,15 @@ Within the context of your WordPress admin, the footer of your admin pages will 
 
 
 == Changelog ==
+
+= 1.3 =
+* Add check to prevent execution of code if file is directly accessed
+* Re-license as GPLv2 or later (from X11)
+* Add 'License' and 'License URI' header tags to readme.txt and plugin file
+* Remove ending PHP close tag
+* Minor code reformatting (spacing)
+* Note compatibility through WP 3.5+
+* Update copyright date (2013)
 
 = 1.2.1 =
 * Note compatibility through WP 3.3+
@@ -89,6 +100,9 @@ Within the context of your WordPress admin, the footer of your admin pages will 
 
 
 == Upgrade Notice ==
+
+= 1.3 =
+Trivial update: noted compatibility through WP 3.5+; explicitly stated license
 
 = 1.2.1 =
 Trivial update: noted compatibility through WP 3.3+
