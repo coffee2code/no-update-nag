@@ -2,11 +2,11 @@
 /**
  * @package No_Update_Nag
  * @author Scott Reilly
- * @version 1.3
+ * @version 1.4
  */
 /*
 Plugin Name: No Update Nag
-Version: 1.3
+Version: 1.4
 Plugin URI: http://coffee2code.com/wp-plugins/no-update-nag/
 Author: Scott Reilly
 Author URI: http://coffee2code.com/
@@ -14,21 +14,19 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Description: Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
-Compatible with WordPress 2.5+ through 3.5+.
+Compatible with WordPress 2.5+ through 3.8+.
 
 =>> Read the accompanying readme.txt file for instructions and documentation.
 =>> Also, visit the plugin's homepage for additional information and updates.
-=>> Or visit: http://coffee2code.com/wp-plugins/no-update-nag/
+=>> Or visit: http://wordpress.org/plugins/no-update-nag/
 
 TODO:
 	* Add filter to define capabilities for who can see update nag (or perhaps who can't see it)
 	* Ability to suppress notice in footer
-	* Add screenshot to show the nag that gets removed
-
 */
 
 /*
-	Copyright (c) 2008-2013 by Scott Reilly (aka coffee2code)
+	Copyright (c) 2008-2014 by Scott Reilly (aka coffee2code)
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
@@ -37,7 +35,7 @@ TODO:
 
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
@@ -56,6 +54,7 @@ if ( ! function_exists( 'c2c_no_update_nag' ) ) :
 	 */
 	function c2c_no_update_nag() {
 		remove_action( 'admin_notices', 'update_nag', 3 );
+		remove_action( 'network_admin_notices', 'update_nag', 3 );
 	}
 
 endif;
