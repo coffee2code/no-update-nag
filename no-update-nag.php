@@ -1,32 +1,33 @@
 <?php
 /**
+ * Plugin Name: No Update Nag
+ * Version:     1.4.1
+ * Plugin URI:  http://coffee2code.com/wp-plugins/no-update-nag/
+ * Author:      Scott Reilly
+ * Author URI:  http://coffee2code.com/
+ * License:     GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Description: Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
+ *
+ * Compatible with WordPress 2.5+ through 4.1+.
+ *
+ * =>> Read the accompanying readme.txt file for instructions and documentation.
+ * =>> Also, visit the plugin's homepage for additional information and updates.
+ * =>> Or visit: https://wordpress.org/plugins/no-update-nag/
+ *
  * @package No_Update_Nag
- * @author Scott Reilly
- * @version 1.4
+ * @author  Scott Reilly
+ * @version 1.4.1
  */
+
 /*
-Plugin Name: No Update Nag
-Version: 1.4
-Plugin URI: http://coffee2code.com/wp-plugins/no-update-nag/
-Author: Scott Reilly
-Author URI: http://coffee2code.com/
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Description: Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
-
-Compatible with WordPress 2.5+ through 3.8+.
-
-=>> Read the accompanying readme.txt file for instructions and documentation.
-=>> Also, visit the plugin's homepage for additional information and updates.
-=>> Or visit: http://wordpress.org/plugins/no-update-nag/
-
-TODO:
-	* Add filter to define capabilities for who can see update nag (or perhaps who can't see it)
-	* Ability to suppress notice in footer
+ * TODO:
+ * - Add filter to define capabilities for who can see update nag (or perhaps who can't see it)
+ * - Ability to suppress notice in footer
 */
 
 /*
-	Copyright (c) 2008-2014 by Scott Reilly (aka coffee2code)
+	Copyright (c) 2008-2015 by Scott Reilly (aka coffee2code)
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License

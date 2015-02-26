@@ -5,8 +5,8 @@ Tags: admin, updates, nag, notices, upgrade, coffee2code
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
-Tested up to: 3.8.1
-Stable tag: 1.4
+Tested up to: 4.1
+Stable tag: 1.4.1
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -21,7 +21,7 @@ Of course, the status of your version of WordPress (be it current or out-of-date
 
 And certainly, of course, I don't advocate completely ignoring the fact that updates often contain fixes for critical bugs or exploits. However, there are various other means of learning about updates; and once known, not everyone is able or willing to update immediately.
 
-Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-update-nag) | [Plugin Directory Page](http://wordpress.org/plugins/no-update-nag/) | [Author Homepage](http://coffee2code.com)
+Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-update-nag) | [Plugin Directory Page](https://wordpress.org/plugins/no-update-nag/) | [Author Homepage](http://coffee2code.com)
 
 
 == Installation ==
@@ -55,6 +55,13 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 
 == Changelog ==
+
+= 1.4.1 (2015-02-25) =
+* Reformat plugin header
+* Change documentation links to wp.org to be https
+* Note compatibility through WP 4.1+
+* Update copyright date (2015)
+* Add plugin icon
 
 = 1.4 (2014-01-30) =
 * Remove nag from network_admin_notices
@@ -118,6 +125,9 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 
 == Upgrade Notice ==
+
+= 1.4.1 =
+Trivial update: noted compatibility through WP 4.1+ and updated copyright date (2015)
 
 = 1.4 =
 Minor update: removed nag from network admin as well; noted compatibility through WP 3.8+
