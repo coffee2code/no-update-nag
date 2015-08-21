@@ -56,6 +56,9 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 == Changelog ==
 
+= 1.4.2 (2015-08-20) =
+* Update: Note compatibility through WP 4.3+
+
 = 1.4.1 (2015-02-25) =
 * Reformat plugin header
 * Change documentation links to wp.org to be https
@@ -125,6 +128,9 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 
 == Upgrade Notice ==
+
+= 1.4.2 =
+Trivial update: noted compatibility through WP 4.3+
 
 = 1.4.1 =
 Trivial update: noted compatibility through WP 4.1+ and updated copyright date (2015)
