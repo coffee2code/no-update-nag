@@ -5,8 +5,8 @@ Tags: admin, updates, nag, notices, upgrade, coffee2code
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
-Tested up to: 4.1
-Stable tag: 1.4.1
+Tested up to: 4.4
+Stable tag: 1.4.3
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -55,6 +55,13 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 
 == Changelog ==
+
+= 1.4.3 (2016-03-18) =
+* New: Add LICENSE file.
+* New: Add empty index.php to prevent files from being listed if web server has enabled directory listings.
+* Change: Note compatibility through WP 4.4+.
+* Change: Update copyright date (2016).
+
 
 = 1.4.2 (2015-08-20) =
 * Update: Note compatibility through WP 4.3+
@@ -128,6 +135,9 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 
 == Upgrade Notice ==
+
+= 1.4.3 =
+Trivial update: verified compatibility through WP 4.4; updated copyright date (2016).
 
 = 1.4.2 =
 Trivial update: noted compatibility through WP 4.3+
