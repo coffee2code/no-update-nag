@@ -56,12 +56,14 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 == Changelog ==
 
+= () =
+* Change: Update copyright date (2017)
+
 = 1.4.3 (2016-03-18) =
 * New: Add LICENSE file.
 * New: Add empty index.php to prevent files from being listed if web server has enabled directory listings.
 * Change: Note compatibility through WP 4.4+.
 * Change: Update copyright date (2016).
-
 
 = 1.4.2 (2015-08-20) =
 * Update: Note compatibility through WP 4.3+
