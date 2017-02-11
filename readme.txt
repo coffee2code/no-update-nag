@@ -26,8 +26,8 @@ Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-update-nag) | [Plu
 
 == Installation ==
 
-1. Unzip `no-update-nag.zip` inside the `/wp-content/plugins/` directory (or install via the built-in WordPress plugin installer)
-1. Activate the plugin through the 'Plugins' admin menu in WordPress
+1. Install via the built-in WordPress plugin installer. Or download and unzip `no-update-nag.zip` inside the plugins directory for your site (typically `wp-content/plugins/`)
+2. Activate the plugin through the 'Plugins' admin menu in WordPress
 
 
 == Screenshots ==
@@ -51,13 +51,14 @@ Within the context of your WordPress admin, the footer of your admin pages will 
 
 = So I should ignore the update nag and continue using my older version of WordPress? =
 
-Most certainly not. The latest version of WordPress will contain the latest security and bug fixes, as well as new features. Backwards compatibility is of paramount importance to the project so in most cases you should be safe to upgrade (especially for minor releases). However, some people in special circumstances manage their sites in different ways for different reasons, which may preclude delaying an update to the latest version.
+Most certainly not. The latest version of WordPress will contain the latest security and bug fixes, as well as new features. Backwards compatibility is of paramount importance to the project so in most cases you should be safe to upgrade (especially for minor releases). However, some people in special circumstances manage their sites in different ways for different reasons, which may include temporarily delaying an update to the latest version.
 
 
 == Changelog ==
 
 = () =
 * Change: Minor code and code documentation reformatting (spacing)
+* Change: Minor readme.txt tweaks
 * Change: Note compatibility through WP 4.7+
 * Change: Update copyright date (2017)
 
