@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
 Tested up to: 4.7
-Stable tag: 1.4.3
+Stable tag: 1.4.4
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -56,7 +56,7 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 == Changelog ==
 
-= () =
+= 1.4.4 (2017-02-11) =
 * Change: Minor code and code documentation reformatting (spacing)
 * Change: Minor readme.txt tweaks
 * Change: Note compatibility through WP 4.7+
@@ -140,6 +140,9 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 
 == Upgrade Notice ==
+
+= 1.4.4 =
+Trivial update: verified compatibility through WP 4.7; updated copyright date (2017).
 
 = 1.4.3 =
 Trivial update: verified compatibility through WP 4.4; updated copyright date (2016).
