@@ -50,12 +50,12 @@ defined( 'ABSPATH' ) or die();
 if ( ! function_exists( 'c2c_no_update_nag' ) ) :
 
 	/**
-	 * Disable the WordPress update nag
+	 * Disables the WordPress update nag.
 	 *
 	 * @since 1.2
 	 */
 	function c2c_no_update_nag() {
-		remove_action( 'admin_notices', 'update_nag', 3 );
+		remove_action( 'admin_notices',         'update_nag', 3 );
 		remove_action( 'network_admin_notices', 'update_nag', 3 );
 	}
 

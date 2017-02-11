@@ -57,6 +57,7 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 == Changelog ==
 
 = () =
+* Change: Minor code and code documentation reformatting (spacing)
 * Change: Note compatibility through WP 4.7+
 * Change: Update copyright date (2017)
 
