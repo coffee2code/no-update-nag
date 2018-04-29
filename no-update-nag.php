@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: No Update Nag
- * Version:     1.4.4
+ * Version:     1.4.5
  * Plugin URI:  http://coffee2code.com/wp-plugins/no-update-nag/
  * Author:      Scott Reilly
  * Author URI:  http://coffee2code.com/
@@ -18,7 +18,7 @@
  *
  * @package No_Update_Nag
  * @author  Scott Reilly
- * @version 1.4.4
+ * @version 1.4.5
  */
 
 /*
