@@ -21,7 +21,7 @@ Of course, the status of your version of WordPress (be it current or out-of-date
 
 And certainly, of course, I don't advocate completely ignoring the fact that updates often contain fixes for critical bugs or exploits. However, there are various other means of learning about updates; and once known, not everyone is able or willing to update immediately.
 
-Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-update-nag) | [Plugin Directory Page](https://wordpress.org/plugins/no-update-nag/) | [Author Homepage](http://coffee2code.com)
+Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-update-nag) | [Plugin Directory Page](https://wordpress.org/plugins/no-update-nag/) | [GitHub](https://github.com/coffee2code/no-update-nag/) | [Author Homepage](http://coffee2code.com)
 
 
 == Installation ==
@@ -57,6 +57,7 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 == Changelog ==
 
 = () =
+* Change: Add GitHub link to readme
 * Change: Note compatibility through WP 4.9+
 * Change: Update copyright date (2018)
 
