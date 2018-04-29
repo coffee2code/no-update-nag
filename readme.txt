@@ -56,6 +56,9 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 == Changelog ==
 
+= () =
+* Change: Update copyright date (2018)
+
 = 1.4.4 (2017-02-11) =
 * Change: Minor code and code documentation reformatting (spacing)
 * Change: Minor readme.txt tweaks
