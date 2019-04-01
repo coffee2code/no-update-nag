@@ -17,7 +17,7 @@ This plugin removes the WordPress update nag that appears at the top of all admi
 
 Tired of WordPress nagging you about a new release?  Maybe you already know about it and want to hold off on an update and would rather not see the update nag on every admin page you visit. Activate this plugin and be bothered no more!
 
-Of course, the status of your version of WordPress (be it current or out-of-date) is still reflected in the footer of your admin pages and in the update count link in the admin bar.
+The status of your version of WordPress (be it current or out-of-date) is still reflected in the footer of your admin pages and in the update count link in the admin bar.
 
 And certainly, of course, I don't advocate completely ignoring the fact that updates often contain fixes for critical bugs or exploits. However, there are various other means of learning about updates; and once known, not everyone is able or willing to update immediately.
 
@@ -59,6 +59,7 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 = () =
 * New: Add unit tests
 * New: Add CHANGELOG.md file and move all but most recent changelog entries into it
+* Change: Minor tweak to extended plugin description
 * Change: Note compatibility through WP 5.1+
 * Change: Update copyright date (2019)
 * Change: Update License URI to be HTTPS
