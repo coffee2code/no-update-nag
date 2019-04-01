@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.4.6 _(2019-04-01)_
+* New: Add unit tests
+* New: Add CHANGELOG.md file and move all but most recent changelog entries into it
+* Change: Minor tweak to extended plugin description
+* Change: Note compatibility through WP 5.1+
+* Change: Update copyright date (2019)
+* Change: Update License URI to be HTTPS
+* Change: Split paragraph in README.md's "Support" section into two
+
 ## 1.4.5 _(2018-04-29)_
 * New: Add README.md
 * Change: Add GitHub link to readme
