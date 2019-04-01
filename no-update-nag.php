@@ -10,7 +10,7 @@
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Description: Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
  *
- * Compatible with WordPress 2.5+ through 4.9+.
+ * Compatible with WordPress 2.5+ through 5.1+.
  *
  * =>> Read the accompanying readme.txt file for instructions and documentation.
  * =>> Also, visit the plugin's homepage for additional information and updates.
