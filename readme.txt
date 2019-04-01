@@ -3,7 +3,7 @@ Contributors: coffee2code
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ARCFJ9TX3522
 Tags: admin, updates, nag, notices, upgrade, coffee2code
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
 Tested up to: 4.9
 Stable tag: 1.4.5
@@ -55,6 +55,9 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 
 == Changelog ==
+
+= () =
+* Change: Update License URI to be HTTPS
 
 = 1.4.5 (2018-04-29) =
 * New: Add README.md

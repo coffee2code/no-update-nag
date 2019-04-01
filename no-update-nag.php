@@ -7,7 +7,7 @@
  * Author URI:  http://coffee2code.com/
  * Text Domain: no-update-nag
  * License:     GPLv2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Description: Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
  *
  * Compatible with WordPress 2.5+ through 4.9+.
