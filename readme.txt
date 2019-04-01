@@ -57,6 +57,7 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 == Changelog ==
 
 = () =
+* New: Add unit tests
 * New: Add CHANGELOG.md file and move all but most recent changelog entries into it
 * Change: Note compatibility through WP 5.1+
 * Change: Update copyright date (2019)

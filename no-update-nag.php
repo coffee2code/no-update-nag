@@ -25,7 +25,6 @@
  * TODO:
  * - Add filter to define capabilities for who can see update nag (or perhaps who can't see it)
  * - Ability to suppress notice in footer
- * - Add unit tests
  */
 
 /*
