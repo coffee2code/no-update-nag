@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
 Tested up to: 5.3
-Stable tag: 1.4.6
+Stable tag: 1.4.7
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -56,6 +56,11 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 == Changelog ==
 
+= 1.4.7 (2019-12-03) =
+* Change: Update unit test install script and bootstrap to use latest WP unit test repo
+* Change: Note compatibility through WP 5.3+
+* Change: Update copyright date (2020)
+
 = 1.4.6 (2019-04-01) =
 * New: Add unit tests
 * New: Add CHANGELOG.md file and move all but most recent changelog entries into it
@@ -71,16 +76,13 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 * Change: Note compatibility through WP 4.9+
 * Change: Update copyright date (2018)
 
-= 1.4.4 (2017-02-11) =
-* Change: Minor code and code documentation reformatting (spacing)
-* Change: Minor readme.txt tweaks
-* Change: Note compatibility through WP 4.7+
-* Change: Update copyright date (2017)
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-update-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.4.7 =
+Trivial update: modernized unit tests, noted compatibility through WP 5.3+, and updated copyright date (2020)
 
 = 1.4.6 =
 Trivial update: added unit tests, created CHANGELOG.md to store historical changelog outside of readme.txt, noted compatibility through WP 5.1+, and updated copyright date (2019)
