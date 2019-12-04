@@ -2,6 +2,7 @@
 
 ## _(in-progress)_
 * Change: Note compatibility through WP 5.3+
+* Change: Update copyright date (2020)
 
 ## 1.4.6 _(2019-04-01)_
 * New: Add unit tests
