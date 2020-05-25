@@ -21,7 +21,7 @@ The status of your version of WordPress (be it current or out-of-date) is still 
 
 And certainly, of course, I don't advocate completely ignoring the fact that updates often contain fixes for critical bugs or exploits. However, there are various other means of learning about updates; and once known, not everyone is able or willing to update immediately.
 
-Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-update-nag) | [Plugin Directory Page](https://wordpress.org/plugins/no-update-nag/) | [GitHub](https://github.com/coffee2code/no-update-nag/) | [Author Homepage](http://coffee2code.com)
+Links: [Plugin Homepage](https://coffee2code.com/wp-plugins/no-update-nag) | [Plugin Directory Page](https://wordpress.org/plugins/no-update-nag/) | [GitHub](https://github.com/coffee2code/no-update-nag/) | [Author Homepage](https://coffee2code.com)
 
 
 == Installation ==

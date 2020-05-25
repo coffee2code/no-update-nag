@@ -2,6 +2,7 @@
 
 ## _(in-progress)_
 * Change: Note compatibility through WP 5.4+
+* Change: Update links to coffee2code.com to be HTTPS
 
 ## 1.4.7 _(2019-12-03)_
 * Change: Update unit test install script and bootstrap to use latest WP unit test repo

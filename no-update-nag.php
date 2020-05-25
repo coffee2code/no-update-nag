@@ -2,9 +2,9 @@
 /**
  * Plugin Name: No Update Nag
  * Version:     1.4.7
- * Plugin URI:  http://coffee2code.com/wp-plugins/no-update-nag/
+ * Plugin URI:  https://coffee2code.com/wp-plugins/no-update-nag/
  * Author:      Scott Reilly
- * Author URI:  http://coffee2code.com/
+ * Author URI:  https://coffee2code.com/
  * Text Domain: no-update-nag
  * License:     GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
