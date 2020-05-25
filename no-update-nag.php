@@ -22,12 +22,6 @@
  */
 
 /*
- * TODO:
- * - Add filter to define capabilities for who can see update nag (or perhaps who can't see it)
- * - Ability to suppress notice in footer
- */
-
-/*
 	Copyright (c) 2008-2020 by Scott Reilly (aka coffee2code)
 
 	This program is free software; you can redistribute it and/or
