@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
 Tested up to: 5.4
-Stable tag: 1.4.7
+Stable tag: 1.4.8
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -56,6 +56,12 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 
 == Changelog ==
 
+= 1.4.8 (2020-05-24) =
+* New: Add TODO.md and move existing TODO list from top of main plugin file into it (and add to it)
+* Change: Use HTTPS for link to WP SVN repository in bin script for configuring unit tests (and delete commented-out code)
+* Change: Note compatibility through WP 5.4+
+* Change: Update links to coffee2code.com to be HTTPS
+
 = 1.4.7 (2019-12-03) =
 * Change: Update unit test install script and bootstrap to use latest WP unit test repo
 * Change: Note compatibility through WP 5.3+
@@ -70,16 +76,13 @@ Most certainly not. The latest version of WordPress will contain the latest secu
 * Change: Update License URI to be HTTPS
 * Change: Split paragraph in README.md's "Support" section into two
 
-= 1.4.5 (2018-04-29) =
-* New: Add README.md
-* Change: Add GitHub link to readme
-* Change: Note compatibility through WP 4.9+
-* Change: Update copyright date (2018)
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-update-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.4.8 =
+Trivial update: Added TODO.md file, updated a few URLs to be HTTPS, and noted compatibility through WP 5.4+
 
 = 1.4.7 =
 Trivial update: modernized unit tests, noted compatibility through WP 5.3+, and updated copyright date (2020)
