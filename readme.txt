@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
 Tested up to: 5.5
-Stable tag: 1.4.8
+Stable tag: 1.4.9
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
 
@@ -60,6 +60,16 @@ Yes.
 
 == Changelog ==
 
+= 1.4.9 (2020-08-28) =
+* Change: Restructure unit test file structure
+    * New: Create new subdirectory `phpunit/` to house all files related to unit testing
+    * Change: Move `bin/` to `phpunit/bin/`
+    * Change: Move `tests/bootstrap.php` to `phpunit/`
+    * Change: Move `tests/` to `phpunit/tests/`
+    * Change: Rename `phpunit.xml` to `phpunit.xml.dist` per best practices
+* Change: Note compatibility through WP 5.5+
+* Change: Add an FAQ item
+
 = 1.4.8 (2020-05-24) =
 * New: Add TODO.md and move existing TODO list from top of main plugin file into it (and add to it)
 * Change: Use HTTPS for link to WP SVN repository in bin script for configuring unit tests (and delete commented-out code)
@@ -71,19 +81,13 @@ Yes.
 * Change: Note compatibility through WP 5.3+
 * Change: Update copyright date (2020)
 
-= 1.4.6 (2019-04-01) =
-* New: Add unit tests
-* New: Add CHANGELOG.md file and move all but most recent changelog entries into it
-* Change: Minor tweak to extended plugin description
-* Change: Note compatibility through WP 5.1+
-* Change: Update copyright date (2019)
-* Change: Update License URI to be HTTPS
-* Change: Split paragraph in README.md's "Support" section into two
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-update-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.4.9 =
+Trivial update: Restructured unit test file structure and noted compatibility through WP 5.5+.
 
 = 1.4.8 =
 Trivial update: Added TODO.md file, updated a few URLs to be HTTPS, and noted compatibility through WP 5.4+
