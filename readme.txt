@@ -53,6 +53,10 @@ Within the context of your WordPress admin, the footer of your admin pages will 
 
 Most certainly not. The latest version of WordPress will contain the latest security and bug fixes, as well as new features. Backwards compatibility is of paramount importance to the project so in most cases you should be safe to upgrade (especially for minor releases). However, some people in special circumstances manage their sites in different ways for different reasons, which may include temporarily delaying an update to the latest version.
 
+= Does this plugin include unit tests? =
+
+Yes.
+
 
 == Changelog ==
 
