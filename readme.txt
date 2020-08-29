@@ -5,7 +5,7 @@ Tags: admin, updates, nag, notices, upgrade, coffee2code
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
-Tested up to: 5.4
+Tested up to: 5.5
 Stable tag: 1.4.8
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released
