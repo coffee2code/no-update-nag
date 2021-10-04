@@ -2,6 +2,7 @@
 
 ## _(in-progress)_
 * Change: Note compatibility through WP 5.8+
+* Change: Improve installation instruction in readme.txt
 * Change: Minor text tweaks in readme.txt
 * Unit tests:
     * Change: Restructure unit test directories
