@@ -1,6 +1,6 @@
 # Changelog
 
-## _(in-progress)_
+## 1.4.11 _(2021-10-03)_
 * Change: Note compatibility through WP 5.8+
 * Change: Improve installation instruction in readme.txt
 * Change: Minor text tweaks in readme.txt

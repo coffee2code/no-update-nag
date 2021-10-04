@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
 Tested up to: 5.8
-Stable tag: 1.4.10
+Stable tag: 1.4.11
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released.
 
@@ -60,6 +60,18 @@ Yes.
 
 == Changelog ==
 
+= 1.4.11 (2021-10-03) =
+* Change: Note compatibility through WP 5.8+
+* Change: Improve installation instruction in readme.txt
+* Change: Minor text tweaks in readme.txt
+* Unit tests:
+    * Change: Restructure unit test directories
+        * Change: Move `phpunit/` into `tests/phpunit/`
+        * Change: Move `phpunit/bin/` into `tests/`
+    * Change: Remove 'test-' prefix from unit test file
+    * Change: In bootstrap, store path to plugin file constant
+    * Change: In bootstrap, add backcompat for PHPUnit pre-v6.0
+
 = 1.4.10 (2021-04-19) =
 * Change: Note compatibility through WP 5.7+
 * Change: Update copyright date (2021)
@@ -74,16 +86,13 @@ Yes.
 * Change: Note compatibility through WP 5.5+
 * Change: Add an FAQ item
 
-= 1.4.8 (2020-05-24) =
-* New: Add TODO.md and move existing TODO list from top of main plugin file into it (and add to it)
-* Change: Use HTTPS for link to WP SVN repository in bin script for configuring unit tests (and delete commented-out code)
-* Change: Note compatibility through WP 5.4+
-* Change: Update links to coffee2code.com to be HTTPS
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-update-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.4.11 =
+Trivial update: noted compatibility through WP 5.8+ and minor reorganization and tweaks to unit tests
 
 = 1.4.10 =
 Trivial update: noted compatibility through WP 5.7+ and updated copyright date (2021)
