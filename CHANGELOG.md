@@ -2,6 +2,7 @@
 
 ## _(in-progress)_
 * Change: Note compatibility through WP 5.8+
+* Change: Minor text tweaks in readme.txt
 * Unit tests:
     * Change: Restructure unit test directories
         * Change: Move `phpunit/` into `tests/phpunit/`
