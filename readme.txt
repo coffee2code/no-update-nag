@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
 Tested up to: 6.3
-Stable tag: 1.4.11
+Stable tag: 1.4.12
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released.
 
@@ -60,6 +60,10 @@ Yes.
 
 == Changelog ==
 
+= 1.4.12 (2023-05-18) =
+* Change: Note compatibility through WP 6.3+
+* Change: Update copyright date (2023)
+
 = 1.4.11 (2021-10-03) =
 * Change: Note compatibility through WP 5.8+
 * Change: Improve installation instruction in readme.txt
@@ -76,20 +80,13 @@ Yes.
 * Change: Note compatibility through WP 5.7+
 * Change: Update copyright date (2021)
 
-= 1.4.9 (2020-08-28) =
-* Change: Restructure unit test file structure
-    * New: Create new subdirectory `phpunit/` to house all files related to unit testing
-    * Change: Move `bin/` to `phpunit/bin/`
-    * Change: Move `tests/bootstrap.php` to `phpunit/`
-    * Change: Move `tests/` to `phpunit/tests/`
-    * Change: Rename `phpunit.xml` to `phpunit.xml.dist` per best practices
-* Change: Note compatibility through WP 5.5+
-* Change: Add an FAQ item
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-update-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.4.12 =
+Trivial update: noted compatibility through WP 6.3+ and updated copyright date (2023)
 
 = 1.4.11 =
 Trivial update: noted compatibility through WP 5.8+ and minor reorganization and tweaks to unit tests
