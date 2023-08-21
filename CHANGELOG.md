@@ -2,6 +2,10 @@
 
 ## _(in-progress)_
 * New: Add `.gitignore` file
+* Unit tests:
+    * Allow tests to run against current versions of WordPress
+    * New: Add `composer.json` for PHPUnit Polyfill dependency
+    * Change: Prevent PHP warnings due to missing core-related generated files
 
 ## 1.4.12 _(2023-05-18)_
 * Change: Note compatibility through WP 6.3+
