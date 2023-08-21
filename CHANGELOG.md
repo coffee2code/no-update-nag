@@ -1,5 +1,8 @@
 # Changelog
 
+## _(in-progress)_
+* New: Add `.gitignore` file
+
 ## 1.4.12 _(2023-05-18)_
 * Change: Note compatibility through WP 6.3+
 * Change: Update copyright date (2023)
