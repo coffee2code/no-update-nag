@@ -5,6 +5,9 @@
  * @package No_Update_Nag
  */
 
+// Prevent web access.
+( php_sapi_name() !== 'cli' ) && die();
+
 define( 'NO_UPDATE_NAG_PLUGIN_DIR',  dirname( __FILE__, 3 ) );
 define( 'NO_UPDATE_NAG_PLUGIN_FILE', NO_UPDATE_NAG_PLUGIN_DIR . '/no-update-nag.php' );
 
