@@ -6,6 +6,7 @@
 * Change: Reduce the number of plugin tags in `readme.txt`
 * Change: Tweak formatting in `README.md`
 * New: Add `.gitignore` file
+* Change: Remove development and testing-related files from release packaging
 * Unit tests:
     * Allow tests to run against current versions of WordPress
     * New: Add `composer.json` for PHPUnit Polyfill dependency
