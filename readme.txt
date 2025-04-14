@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.5
 Tested up to: 6.8
-Stable tag: 1.4.12
+Stable tag: 1.4.13
 
 Removes the WordPress update nag that appears at the top of all admin pages when a new version of WordPress is released.
 
@@ -60,6 +60,21 @@ Yes. The tests are not packaged in the release .zip file or included in plugins.
 
 == Changelog ==
 
+= 1.4.13 (2025-04-14) =
+* Change: Note compatibility through WP 6.8+
+* Change: Note compatibility through PHP 8.3+
+* Change: Update copyright date (2025)
+* Change: Reduce the number of plugin tags in `readme.txt`
+* Change: Tweak formatting in `README.md`
+* New: Add `.gitignore` file
+* Change: Remove development and testing-related files from release packaging
+* Unit tests:
+    * Hardening: Prevent direct web access to `bootstrap.php`
+    * Allow tests to run against current versions of WordPress
+    * New: Add `composer.json` for PHPUnit Polyfill dependency
+    * Change: Prevent PHP warnings due to missing core-related generated files
+    * Change: In bootstrap, store path to plugin directory in a constant
+
 = 1.4.12 (2023-05-18) =
 * Change: Note compatibility through WP 6.3+
 * Change: Update copyright date (2023)
@@ -76,14 +91,13 @@ Yes. The tests are not packaged in the release .zip file or included in plugins.
     * Change: In bootstrap, store path to plugin file constant
     * Change: In bootstrap, add backcompat for PHPUnit pre-v6.0
 
-= 1.4.10 (2021-04-19) =
-* Change: Note compatibility through WP 5.7+
-* Change: Update copyright date (2021)
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-update-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.4.13 =
+Trivial update: noted compatibility through WP 6.8+ and PHP 8.3+, improved unit testing while also removing unit tests from release packaging, and updated copyright date (2025)
 
 = 1.4.12 =
 Trivial update: noted compatibility through WP 6.3+ and updated copyright date (2023)
