@@ -1,7 +1,7 @@
 # Changelog
 
 ## _(in-progress)_
-* Change: Note compatibility through WP 6.6+
+* Change: Note compatibility through WP 6.8+
 * Change: Update copyright date (2025)
 * Change: Reduce the number of plugin tags in `readme.txt`
 * Change: Tweak formatting in `README.md`
